@@ -17,3 +17,7 @@
 * Create .env file using ```cp .env.example .env```
 * Add your OpenAI Api key at the relant environment key. (more info at https://openai.com/api/)
 * Run client ```npm run server```
+
+## Live Demo
+* **You can see the live demo using this link :**
+https://open-ai-chat-bot-delta.vercel.app/
