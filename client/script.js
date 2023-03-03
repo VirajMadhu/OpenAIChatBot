@@ -87,6 +87,7 @@ const handleSubmit = async (e) => {
   const data = new FormData(form);
 
   //User's chat stripe
+  if (data.get('prompt').replace(/\n/g,"")=="") return false;
   chatContainer.innerHTML += chatStripe(false, data.get('prompt'));
   form.reset();
 
